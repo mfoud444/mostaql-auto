@@ -101,7 +101,7 @@ async def main_loop():
         try:
             await check_for_new_projects()
         except Exception as e:
-            logger.error(f"An error occurred: {str(e)}")
+            print(f"An error occurred: {str(e)}")
         await asyncio.sleep(60) 
 
 
