@@ -23,5 +23,5 @@ ENV PATH="$VIRTUAL_ENV/bin:$PATH"
  
 EXPOSE 7860
  
-CMD ["python3", "app-boot.py"]
+CMD ["python3", "app.py"]
 # CMD ["gunicorn", "--bind" , ":8080", "--workers", "2", "app:app"]
