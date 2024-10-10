@@ -3,7 +3,7 @@ telebot
 supabase
 flask
 nest-asyncio
-python-telegram-bot==21.2
+python-telegram-bot
 httpx
 phonenumbers
 beautifulsoup4
