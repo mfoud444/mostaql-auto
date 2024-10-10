@@ -1,9 +1,10 @@
+python-telegram-bot
 telethon
 telebot
 supabase
 flask
 nest-asyncio
-python-telegram-bot
+
 httpx
 phonenumbers
 beautifulsoup4
