@@ -9,3 +9,4 @@ phonenumbers
 beautifulsoup4
 phonenumbers
 deep-translator
+together

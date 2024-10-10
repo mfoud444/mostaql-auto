@@ -8,7 +8,7 @@ ENV PATH="$VIRTUAL_ENV/bin:$PATH"
  
 COPY . .
 RUN pip install -r requirements.txt
-RUN pip install --upgrade together
+
 # Stage 2
 FROM python:3-alpine AS runner
  
