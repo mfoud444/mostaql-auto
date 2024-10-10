@@ -5,6 +5,7 @@ flask
 nest-asyncio
 python-telegram-bot==21.2
 httpx
+phonenumbers
 beautifulsoup4
 phonenumbers
 deep-translator
