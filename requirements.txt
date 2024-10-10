@@ -8,3 +8,4 @@ httpx
 beautifulsoup4
 phonenumbers
 together
+deep-translator
