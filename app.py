@@ -11,7 +11,7 @@ from threading import Thread
 
 import os
 from deep_translator import GoogleTranslator
-from together import Together
+# from together import Together
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup, Update
 from telegram.ext import CallbackQueryHandler, CommandHandler, MessageHandler, filters, Updater
 import logging
@@ -28,7 +28,7 @@ api_key = "bcd2a5d64013cef1085dcfe213b42f470c55eb7025bb4d06033ce8fd5463dcf5"
 
 class AITranslatorClient:
     def __init__(self, api_key):
-        self.client = Together(api_key=api_key)
+        self.client = {} #Together(api_key=api_key)
         self.translator = GoogleTranslator()
 
     def translate_to_english(self, message):
