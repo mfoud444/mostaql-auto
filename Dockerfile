@@ -7,6 +7,7 @@ ENV VIRTUAL_ENV=/app/venv
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
  
 COPY . .
+RUN pip install -U deep-translator
 RUN pip install -r requirements.txt
  
 # Stage 2
